@@ -12,19 +12,20 @@
     <div class="container" >
     <form onsubmit="toaddvalue(event)">
         <div class="form-floating mb-3">
-        <input type="number" name="amt" id="amt" class="form-control" placeholder="Enter the value">
+        <input type="number" name="amt" id="amt" class="form-control" placeholder="Enter the value" required>
         <label for="amt" >Amount:</label>
         </div>
         <div class="form-floating mb-3">
-        <input type="text" name="cate" id="cate" class="form-control" placeholder="Enter the value">
+        <input type="text" name="cate" id="cate" class="form-control" placeholder="Enter the value" required>
         <label for="cate" >Category:</label>
         </div>
         <div class="form-floating mb-3">
-        <input type="text" name="desc" id="desc" class="form-control" placeholder="Enter the value">
+        <input type="text" name="desc" id="desc" class="form-control" placeholder="Enter the value" required>
         <label for="desc">Description:</label>
         </div>
         <button type="submit" class="btn btn-primary">Add</button>
     </form>
+    <ul class="list-group mt-3"></ul>
  </div>
 </body>
 </html>
